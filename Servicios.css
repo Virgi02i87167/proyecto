@@ -1,0 +1,110 @@
+/* ESTILO DEL NAVBAR */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e79191;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    background-color: #5c5454;
+    padding: 10px 0;
+}
+
+.logo h1 {
+    margin: 0;
+    color: #e79191;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e79191;
+}
+
+/* ESTILO DEL FOOTER */
+#menu-social {
+    margin-top: 20px;
+    padding: 20px 0;
+    background-color: #5c5454;
+    text-align: center;
+    clear: both;
+}
+
+#menu-social ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#menu-social li {
+    display: inline-block;
+}
+
+#menu-social li a {
+    color: #e79191;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+#menu-social li a:hover {
+    color: #e79191;
+}
+
+/* SERVICIOS ESTILO */
+.service-card {
+    display: flex;
+    align-items: center;
+    background-color: #5c5454;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    border-radius: 8px;
+}
+
+.service-image {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.service-content {
+    max-width: 600px;
+}
+
+.service-card h3 {
+    margin-top: 0;
+    text-align: center;
+    color: #333;
+}
+
+.service-card p {
+    text-align: justify;
+    color:  #e79191;
+}
+
+.service-card ul {
+    padding-left: 50px;
+    color: #e79191;
+}
+
+.service-card ul li {
+    list-style-type: disc;
+}
